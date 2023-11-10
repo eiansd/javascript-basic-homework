@@ -22,7 +22,9 @@ const 사람들 = [
 ];
 
 // 여기에 코드를 작성해주세요.
-const 나이20살이상한명 = 사람들.?
+const 나이20살이상한명 = 사람들.find(function(age){
+  return age.나이 > 20
+})
 
 console.log(나이20살이상한명)
 // 결과
